@@ -1,8 +1,8 @@
 .app-footer {
-  height: $app-footer-height;
+  min-height: $app-footer-height;
   margin-top: $article-gutter;
-  padding: $gutter;
-
+  padding: 1.5 * $gutter;
+  background-color: $app-footer-bg;
   text-align: center;
   color: $app-footer-color;
   font-size: .9rem;
@@ -14,6 +14,10 @@
   }
 
   a {
-    color: $app-footer-color;
+    color: $anchor-color-hover;
+  }
+
+  a:hover, a:focus {
+    border-bottom: 3px solid $anchor-color-hover;
   }
 }

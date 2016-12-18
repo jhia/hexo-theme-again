@@ -20,6 +20,10 @@
     color: $anchor-color;
   }
 
+  a:hover, a:focus {
+  border-bottom: 3px solid $anchor-color-hover;
+}
+
   li {
     margin-left: $gutter;
   }

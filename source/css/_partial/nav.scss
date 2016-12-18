@@ -2,17 +2,27 @@
   position: absolute;
   top: 0;
   right: 0;
-
   margin: $gutter;
 
   a {
-    color: $anchor-color;
-    text-transform: capitalize;
+    color: $anchor-nav-color;
+    text-transform: uppercase;
+    letter-spacing: .2em;
     padding: 6px 10px;
+  }
+
+  a:hover, a:focus {
+    border-bottom: 3px solid $anchor-color-hover;
+    color: $anchor-color-hover;
+    font-weight: 400;
   }
 
   .active {
     background-color: $anchor-color;
     color: #fff;
   }
+}
+
+.green a {
+    color: $anchor-color;
 }

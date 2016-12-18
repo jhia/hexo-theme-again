@@ -28,6 +28,10 @@ main.post {
       display: none;
     }
 
+    a:hover, a:focus {
+      border-bottom: 3px solid $anchor-color-hover;
+    }
+
     // h2 show anchor symbol
     > h2 a.header-anchor { display: inline; }
 
@@ -42,9 +46,10 @@ main.post {
 
   .article-title {
     margin: 0;
-    // font-size: 1.75rem;
+    font-size: 3.4em;
+    font-family: $font-title;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: small-caps;
     padding-top: $article-gutter * 2/3;
   }
 

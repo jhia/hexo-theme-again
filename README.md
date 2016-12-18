@@ -1,10 +1,11 @@
-# hexo-theme-again
-A dead simple theme which supports emoji 。
+# Pinktage!
+
+A dead simple theme which supports emoji and SVG avatars.
 
 
 ## Demo
 
-[lyyourc.com](http://lyyourc.com/) :star: :star:
+[jhiam.github.io](https://jhia.github.io/) :star: :star:
 
 
 ## Usage
@@ -12,7 +13,7 @@ A dead simple theme which supports emoji 。
 Install the theme:
 
  ```bash
-git clone https://github.com/DrakeLeung/hexo-theme-again.git themes/again
+git clone https://github.com/jhia/hexo-theme-pinktage.git themes/pinktage
 ```
 
 
@@ -28,7 +29,7 @@ Use the theme:
 ```yml
 # config.yml
 # theme: landscape
-theme: again
+theme: pinktage
 ```
 
 

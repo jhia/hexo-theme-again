@@ -22,7 +22,7 @@ $purple: #cc99cc;
   border-width: 1px 0;
   overflow: auto;
   color: $foreground;
-  line-height: $code-block-linehight
+  line-height: $code-block-linehight;
 }
 
 .line-numbers {
@@ -83,7 +83,7 @@ $purple: #cc99cc;
 
   .highlight {
     @extend .code-block;
-
+    max-height: 91.835rem;
     pre {
       border: none;
       margin: 0;

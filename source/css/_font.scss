@@ -8,17 +8,8 @@
 }
 
 @font-face {
-  font-family: 'Dot To Dot';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/dot_to_dot.ttf)
-    format('truetype');
-}
-
-@font-face {
   font-family: 'DK Lemon Yellow Sun';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/dk-lemon-yellow-sun/DKLemonYellowSun.otf);
-  //  format('otf');
+  src: url(fonts/dk-lemon-yellow-sun/DKLemonYellowSun.otf) format('opentype');
 }

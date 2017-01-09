@@ -2,6 +2,8 @@
 
 A dead simple theme which supports emoji and SVG avatars.
 
+## Preview
+![Theme Screenshot](http://i.imgur.com/OFK60c6.png)
 
 ## Demo
 
